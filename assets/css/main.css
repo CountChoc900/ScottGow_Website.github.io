@@ -105,7 +105,7 @@
 	}
 
 	body {
-		background: #a5fc03;
+		background: #dddcf7;
 		/*background: #f5f5f5;*/
 	}
 
@@ -124,7 +124,8 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e89980;
+		color: #dddcf7;
+		/*color: #e89980;*/
 		text-decoration: none;
 	}
 
