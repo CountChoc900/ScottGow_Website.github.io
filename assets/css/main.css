@@ -123,7 +123,7 @@
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 		color: #dddcf7;
 		/*color: #e89980;*/
 		text-decoration: none;
@@ -3165,12 +3165,12 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../../scott_images/51651273189_1901337ce7_o.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
-		padding: 12em 0 20em 0;
+		padding: 12em 35em 12em 35em;
 		text-align: center;
 	}
 
