@@ -3177,16 +3177,29 @@
 	#banner::after {
 	  content: "";
 	  position: absolute;
-	  top: 50%;
+	  top: 40%;
 	  left: 50%;
 	  transform: translate(-50%, -50%);
-	  width: 10em;  /* Using em units */
+	  width: 20em;  /* Using em units */
 	  height: 10em; /* Using em units */
-	  background-image: url('images/small-overlay.png');
+	  background-image: url("../../images/banner.jpg");
 	  background-size: contain;
 	  background-repeat: no-repeat;
 	  z-index: 1;
 	}
+
+    /* Targeting all header elements inside #banner */
+#banner h1,
+#banner h2,
+#banner h3,
+#banner h4,
+#banner h5,
+#banner h6,
+#banner p {
+  position: relative;
+  z-index: 2;
+}
+
 
 
 		#banner :last-child {
