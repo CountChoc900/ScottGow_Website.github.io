@@ -3179,13 +3179,14 @@
 	  position: absolute;
 	  top: 40%;
 	  left: 50%;
-	  transform: translate(-50%, -50%);
-	  width: 20em;  /* Using em units */
-	  height: 10em; /* Using em units */
+	  transform: translate(-50%, -55%);
+	  width: 20vw;      /* 20% of the viewport width */
+	  aspect-ratio: 2 / 1; /* Maintains a 2:1 width-to-height ratio */
 	  background-image: url("../../images/banner.jpg");
 	  background-size: contain;
 	  background-repeat: no-repeat;
 	  z-index: 1;
+	  border-radius: 10px;
 	}
 
     /* Targeting all header elements inside #banner */
