@@ -2329,6 +2329,7 @@
 
 		.box.special {
 			text-align: center;
+			margin-top: 150px
 		}
 
 		.box .image.featured {
@@ -3166,24 +3167,24 @@
 		background-attachment: scroll,							fixed;
 		background-color: #666;
 		background-image: url("images/overlay.png"), url("../../scott_images/IMG_1121.jpg");
-		background-position: top left,						center center;
+		background-position: top left,						0% 150%;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
-		padding: 12em 35em 12em 35em;
+		padding: 6em 20em 6em 20em;
 		text-align: center;
 	}
-	/*banner photo overlay */
+		/*banner photo overlay */
 	#banner::after {
 	  content: "";
 	  position: absolute;
-	  top: 40%;
+	  top: 50%;
 	  left: 50%;
-	  transform: translate(-50%, -57%);
-	  width: 20vw;      /* 20% of the viewport width */
-	  aspect-ratio: 2 / 1; /* Maintains a 2:1 width-to-height ratio */
+	  transform: translate(-50%, -165%);
+	  width: 35em;
+	  height: 10em;
 	  background-image: url("../../images/banner.jpg");
-	  background-size: contain;
+	  background-size: 100% auto;
 	  background-repeat: no-repeat;
 	  z-index: 1;
 	  border-radius: 10px;
