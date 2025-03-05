@@ -3170,7 +3170,7 @@
 		background-position: top left,						0% 130%;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
-		color: #fff;
+		color: #666;
 		padding: 6em 20em 6em 20em;
 		text-align: center;
 	}
@@ -3209,7 +3209,7 @@
 		}
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-			color: #fff;
+			color: #666;
 		}
 
 		#banner h2 {
