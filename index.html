@@ -12,6 +12,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src="https://kit.fontawesome.com/49b10886ff.js" crossorigin="anonymous"></script>
+		<style>
+    			.fixed-height-image {
+			      width: 100%;
+			      object-fit: cover; /* Ensures the image covers the container without distortion */
+			      display: block;
+			      margin: 0 auto;
+			    }
+			
+			    /* For larger screens: set a taller height */
+			    @media (min-width: 768px) {
+			      .fixed-height-image {
+			        height: 300px;
+			      }
+			    }
+			
+			    /* For smaller screens: use a shorter height */
+			    @media (max-width: 767px) {
+			      .fixed-height-image {
+			        height: 200px;
+			      }
+			    }
+  		</style>
 	</head>
 	<body class="landing is-preload">
 		<div id="page-wrapper">
@@ -65,7 +87,7 @@
 							<p>The tiles below highlight my athletic achievements, academic projects, such as Honours and presentations, <br />
 							as well as developed skills with Python, HTML, Excel and more </p>
 						</header>
-						<span class="image featured"><img src="scott_images/Group130222cm2232.jpg" alt="" /></span>
+						<span class="image featured"><img src="scott_images/Group130222cm2232.jpg" alt="" class="fixed-height-image"/></span>
 					</section>
 
 					<section class="box special features">
