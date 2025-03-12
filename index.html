@@ -13,6 +13,13 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src="https://kit.fontawesome.com/49b10886ff.js" crossorigin="anonymous"></script>
 		<style>
+			.responsive-img {
+				width: 100%;
+				max-width: 400px;  /* Limits the image's maximum width */
+				height: auto;      /* Maintains aspect ratio */
+				display: block;
+				margin: 0 auto;
+			 }
     			.fixed-height-image {
 			      width: 100%;
 			      object-fit: cover; /* Ensures the image covers the container without distortion */
@@ -127,7 +134,7 @@
 								</a>
 								<!--<img src="scott_images/FECO2-VCO2-2(1).png"/>
 								<span class="icon solid major fa-lock accent5"></span>-->
-								<h3><a href="KNES381_Python_Project.ipynb" target="_blank">Python Sample Code</a></h3>
+								<h3><a href="KNES381_Python_Project.ipynb" target="_blank" class="responsive-img">Python Sample Code</a></h3>
 								<p>Sample code of a Python project demonstrating how to plot gas exchange variables from CPET testing</p>
 							</section>
 						</div>
