@@ -18,7 +18,7 @@ The projects include:
 The images folder was created by the developer of this template to reference photos for styling. I use some of the same images for banners, but I created a new folder to store all images I wish to use called scott_images. 
 
 ## Other Pages ##
-the index.html is the home page. The other pages are additional html pages with their own styling. I only use one for a photo collage (Interests.html) and have the others unlinked from my homepage, but it's easy to re-add!
+the [index.html](index.html) is the home page. The other pages are additional html pages with their own styling. I only use one for a photo collage (Interests.html) and have the others unlinked from my homepage, but it's easy to re-add!
 
 ## CSS Assets ##
 The assets folder contains content related to the bulk of the syling of the website. The main.css is where all major formatting changes can be made and it's easy to modify when using your browsers built-in website inspector.
