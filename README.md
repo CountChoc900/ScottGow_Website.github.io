@@ -7,7 +7,7 @@ There are several files in the projects folder you are free to browse.
 The projects include: 
 - [python coding](/projects/KNES381_Python_Project.ipynb)
 - [excel dashboards](/projects/athlete-performance-dataset-II.xlsx)
-- scratch games
+- [scratch games](https://scratch.mit.edu/projects/1145802128)
 - [Honours poster](/scott_images/Honours_Poster.png)
 - Honours Thesis
 - [photo editing](/scott_images/Skiing_everest.png)
